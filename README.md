@@ -4,19 +4,21 @@ Makes it easy to see the packets ribbon is sending in TETR.IO
 
 ## Info
 
-TETR.IO Logs is a firefox extension which logs the ribbon packets to console. You can alternatively download the logs by running `getPacketLogs();` in console.
+TETR.IO Logs is an extension which logs the ribbon packets to console. You can alternatively download the logs by running `getPacketLogs();` in console.
 
 ## Installation
 
-Just search up how to install a firefox extension from a zip file lmao
+### Firefox
 
-## DISCLAIMER
+- Type about:debugging#/runtime/this-firefox
+- Click on Load Temporary Add-on
+- Select latest release zip file
 
-ONLY WORKS ON FIREFOX
+### Chromium
 
-## Credits
-
-Thanks to [UniQMG's Tetr.io+](https://gitlab.com/UniQMG/tetrio-plus/) for the rewrite filter code.
+- Go to the extensions tab
+- Enable developer mode
+- Drag the latest release zip file to the page
 
 ## LICENSE
 

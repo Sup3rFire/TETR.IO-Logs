@@ -1,0 +1,8 @@
+{
+	"dependencies": {
+		"webextension-polyfill": "^0.8.0"
+	},
+	"devDependencies": {
+		"web-ext-types": "^3.2.1"
+	}
+}
