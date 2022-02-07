@@ -7,19 +7,13 @@
   "permissions": ["webRequest", "webRequestBlocking", "*://*.tetr.io/*"],
 
   "background": {
-    "scripts": [
-      "node_modules/webextension-polyfill/dist/browser-polyfill.min.js",
-      "redirect.js"
-    ]
+    "scripts": ["browser-polyfill.min.js", "redirect.js"]
   },
 
   "content_scripts": [
     {
       "matches": ["*://tetr.io/"],
-      "js": [
-        "node_modules/webextension-polyfill/dist/browser-polyfill.min.js",
-        "injectFilters.js"
-      ]
+      "js": ["browser-polyfill.min.js", "injectFilters.js"]
     }
   ],
 

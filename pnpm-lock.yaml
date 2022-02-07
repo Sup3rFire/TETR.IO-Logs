@@ -2,10 +2,6 @@ lockfileVersion: 5.3
 
 specifiers:
   web-ext-types: ^3.2.1
-  webextension-polyfill: ^0.8.0
-
-dependencies:
-  webextension-polyfill: 0.8.0
 
 devDependencies:
   web-ext-types: 3.2.1
@@ -15,7 +11,3 @@ packages:
   /web-ext-types/3.2.1:
     resolution: {integrity: sha512-oQZYDU3W8X867h8Jmt3129kRVKklz70db40Y6OzoTTuzOJpF/dB2KULJUf0txVPyUUXuyzV8GmT3nVvRHoG+Ew==}
     dev: true
-
-  /webextension-polyfill/0.8.0:
-    resolution: {integrity: sha512-a19+DzlT6Kp9/UI+mF9XQopeZ+n2ussjhxHJ4/pmIGge9ijCDz7Gn93mNnjpZAk95T4Tae8iHZ6sSf869txqiQ==}
-    dev: false
