@@ -10,6 +10,10 @@ TETR.IO Logs is an extension which logs the ribbon packets to console. You can a
 
 ### Firefox
 
+#### Firefox Addons Gallery
+[Firefox Webstore](https://addons.mozilla.org/addon/tetr-io-logs/)
+
+#### Manual Install
 - Type about:debugging#/runtime/this-firefox
 - Click on Load Temporary Add-on
 - Select latest release zip file
