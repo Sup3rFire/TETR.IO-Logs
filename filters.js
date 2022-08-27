@@ -18,7 +18,7 @@ document.body.removeChild(a);
   );
   text = text.replace(
     "function SmartDecode(packet, unpackr = null) {",
-    "function SmartDecode(packet, unpackr = null) {const data = SmartDecoder(packet); console.log(`[I ${new Date().toLocaleString()}] ${JSON.stringify(data)}`); packetLogs += `[I ${new Date().toLocaleString()}] ${JSON.stringify(data)}\\n`; return data;};function SmartDecoder(packet) {"
+    "function SmartDecode(packet, unpackr = null) {const data = SmartDecoder(packet, unpackr); console.log(`[I ${new Date().toLocaleString()}] ${JSON.stringify(data)}`); packetLogs += `[I ${new Date().toLocaleString()}] ${JSON.stringify(data)}\\n`; return data;};function SmartDecoder(packetpacket, unpackr = null) {"
   );
   return text;
 });
